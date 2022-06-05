@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zach Reininger</title>
+    <link rel="stylesheet" href="stylescontact.css">
+    <script src="https://kit.fontawesome.com/640045c053.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<!--NavBar Section-->
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/index.html" id="navbar__logo"> Zach Reininger</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/Projects.html" class="navbar__links">
+                        Projects
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/Experience.html" class="navbar__links">
+                        Experience
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/Education.html" class="navbar__links">
+                        Education & Certificates
+                    </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/Contact.html" class="button">
+                        Contact Info
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+    <div class="socialheading__container">
+    <h1>Social Media</h1>
+    </div>
+    <div class="center">
+    <a href="/www.linkedin.com/in/zach-reininger" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-twitter"></a> 
+    <a href="#" class="fa fa-google"></a>
+    <br><br>
+    </div>
+    <div class="container">
+        <div class="container__contactme">
+            <h1>Contact me!</h1>
+        </div>
+        <form action="action_page.php">
+        <br><br>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Company</label>
+          <input type="text" id="country" name="country" placeholder="Enter Your Company..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
