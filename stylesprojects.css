@@ -243,7 +243,7 @@ transform: translateY(-8px) rotate(-45deg);
 .main__content h1
 {
     font-size: 4rem;
-    background-color: #277AD0;
+    background-color: #1f77d6;
     background-image: linear-gradient(to top, #1203b8 0%, #113d69 100%);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -279,6 +279,43 @@ transform: translateY(-8px) rotate(-45deg);
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent;
 }
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #EBE7E7;
+  }
+
+.Projectshead {
+    text-align: center;
+    padding: 32px;
+    background: #E0DDDD;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+    background:#16477b;
+}
+
+#gallery img {
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 800px) {
+    #gallery img {
+      width: 50%;
+    }
+  }
 
 .main__btn
 {
@@ -338,6 +375,18 @@ width: 100%;
 }
 
 /* Mobile Responsive */
+
+.Projectshead
+{
+    font-size: 1rem;
+    background-color: #277AD0;
+    background-image: linear-gradient(to top, #1203b8 0%, #113d69 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
 
 @media screen and (max-width:760px)
 {
