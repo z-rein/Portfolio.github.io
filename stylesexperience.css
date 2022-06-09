@@ -5,6 +5,8 @@
     font-family: 'Arvo', serif;
 }
 
+
+
 .navbar 
 {
 background: #131313;
@@ -17,6 +19,14 @@ position: sticky;
 top: 0;
 z-index: 999;
 }
+
+#gallery img {
+   text-align: center;
+  }
+
+
+
+
 
 .navbar__container 
 {
@@ -222,29 +232,20 @@ transform: translateY(-8px) rotate(-45deg);
 
 .main
 {
-    background-color: #82cceb;
+   
+        text-align: center;
+        padding: 32px;
+        background: rgb(120, 216, 227);
+    
 }
 
-.main__container
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-    margin: 0 auto;
-    height: 90vh;
-    background-color: #57abf0;
-     z-index: 1;
-     width: 100%;
-     max-width: 1300px;
-     padding:0 50px;
-}
+
 
 .main__content h1
 {
     font-size: 4rem;
     background-color: #277AD0;
-    background-image: linear-gradient(to top, #1203b8 0%, #113d69 100%);
+    background-image: linear-gradient(to top, #9c5428 0%, #113d69 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -278,52 +279,6 @@ transform: translateY(-8px) rotate(-45deg);
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent;
-}
-
-.main__btn
-{
-    font-size: 1rem;
-    background-image: linear-gradient(to top, #1203b8 0%, #113d69 100%);
-    padding:14px 32px;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    margin-top: 2rem;
-    cursor: pointer;
-    position: relative;
-    transition: all 0.35s;
-    outline: none;
-}
-
-.main__btn a 
-{
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    text-decoration: none;
-}
-
-.main__btn:after
-{
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #1203b8;
-    transition: all 0.35s;
-    border-radius: 4px;
-}
-
-.main__btn:hover
-{
-    color:#1203b8;
-}
-
-.main__btn:hover:after
-{
-width: 100%;
 }
 
 .main__img__container
@@ -401,4 +356,9 @@ width: 100%;
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
+}
+
+body
+{
+    background-color: rgb(120, 216, 227);
 }
